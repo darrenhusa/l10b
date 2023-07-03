@@ -1,7 +1,8 @@
 import './bootstrap';
 
-// import { createApp } from 'vue';
-import { createApp } from 'vue/dist/vue.esm-bundler.js';
+import { createApp } from 'vue';
+// import { createApp } from 'vue/dist/vue.esm-bundler.js';
+// const vue = require('vue');
 import Home from './Components/Home.vue';
 
 // import Alpine from 'alpinejs';

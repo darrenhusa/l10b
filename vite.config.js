@@ -13,4 +13,11 @@ export default defineConfig({
             refresh: true,
         }),
     ],
+    resolve: {
+        alias: {
+        // doesn't work!
+        //   'vue': 'vue/dist/vue.runtime.esm-bundler.js',
+          'vue': 'vue/dist/vue.esm-bundler.js',
+        },
+    }
 });
